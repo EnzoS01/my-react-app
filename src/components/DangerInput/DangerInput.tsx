@@ -18,7 +18,7 @@ const DangerInput = () => {
         <h2>Ejemplo 1</h2>
 
         {/* Componente Padre*/}
-        <input type='range' value={value} onChange={handleChange}/>
+        <input type='range' className='type-range'value={value} onChange={handleChange}/>
 
         {/* Componente Hijo */}
         <DangerBar value={value}/>
