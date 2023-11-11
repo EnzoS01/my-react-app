@@ -1,4 +1,4 @@
-import { Button, Form, FormLabel, Modal } from "react-bootstrap";
+import { Button, Form, Modal } from "react-bootstrap";
 import { ModalType } from "../../types/ModalType";
 import { Product } from "../../types/Product";
 
