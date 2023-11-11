@@ -12,9 +12,9 @@ const Navigate =useNavigate();
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link onClick={()=> Navigate('/home')}>Home</Nav.Link>
-                <Nav.Link onClick={()=> Navigate('/componentes')}>Componentes</Nav.Link>
-                <Nav.Link onClick={()=> Navigate('/administracion')}>Administracion</Nav.Link>
+            <Nav.Link onClick={() => Navigate('/')}>Home</Nav.Link>
+            <Nav.Link onClick={() => Navigate('/componentes')}>Componentes</Nav.Link>
+            <Nav.Link onClick={() => Navigate('/administracion')}>Administracion</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Container>
